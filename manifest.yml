@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-NodeRed-Ass1
+  host: IoT-NodeRed-Ass1
+  disk_quota: 1024M
+  services:
+  - IoT-NodeRed-Ass1-cloudantNoSQLDB
+  - IoT-NodeRed-Ass1-iotf-service
+  - availability-monitoring-auto
